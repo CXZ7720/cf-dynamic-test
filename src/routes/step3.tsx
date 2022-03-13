@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Step3 = () => {
     return (
         <div style={{backgroundColor: "lime"}}>
-            <h1>Step 3 has just changed!! and again!!</h1>
+            <h1>Step 3 has just changed!! and again!! Final Test</h1>
             <Link to="/">Move to Main</Link>
         </div>
     )
