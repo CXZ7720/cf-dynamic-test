@@ -1,0 +1,57 @@
+type AccountHoianUser {
+  _id: String!
+  id: ID!
+  nickname: String!
+  profileImage: String!
+}
+
+type AccountUserMetaData {
+  # 사업자 광고주 여부
+  isBusiness: Boolean
+
+  # 신규 광고주 여부
+  isNewUser: Boolean!
+
+  # 마케팅동의 여부
+  marketingAgree: String
+
+  # 약관동의 여부
+  requiredAgree: String
+}
+
+enum AccountUserStatus {
+  # 제재
+  Banned
+
+  # 일반
+  Default
+
+  # 삭제
+  Deleted
+}
+
+type AccountUserStatusTrace {
+  # 제재 설명
+  description: String
+
+  # 제재 종료 날짜
+  endAt: String
+}
+
+type AccountUser {
+  _id: String!
+  createdAt: String!
+  destroyedAt: String
+  hoianUser: AccountHoianUser
+  id: ID!
+  imageUrl: String!
+  metadata: AccountUserMetaData!
+  name: String
+  status: AccountUserStatus!
+  statusTrace: [AccountUserStatusTrace!]
+  updatedAt: String
+}
+
+type Query {
+  accountUser: AccountUser
+}
