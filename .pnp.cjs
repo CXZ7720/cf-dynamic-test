@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.13"],\
             ["@types/react-relay", "npm:13.0.1"],\
             ["@types/relay-runtime", "npm:13.0.2"],\
+            ["@vitejs/plugin-legacy", "virtual:ee3788d5e42285f1ee85346135acb01539f3757bdd8f25d2e06acc381e187e0891040f02f922af55ee393b6e2e66dfbe0fe02fde261d146bc8f7a07799c0ede8#npm:1.7.1"],\
             ["@vitejs/plugin-react", "npm:1.2.0"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-plugin-relay", "npm:13.2.0"],\
@@ -550,6 +551,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@babel/standalone", [\
+        ["npm:7.17.8", {\
+          "packageLocation": "./.yarn/cache/@babel-standalone-npm-7.17.8-f050b977a1-ca72ff478a.zip/node_modules/@babel/standalone/",\
+          "packageDependencies": [\
+            ["@babel/standalone", "npm:7.17.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@babel/template", [\
         ["npm:7.16.7", {\
           "packageLocation": "./.yarn/cache/@babel-template-npm-7.16.7-a18e444be8-10cd112e89.zip/node_modules/@babel/template/",\
@@ -746,6 +756,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-b6b4dcfeae.zip/node_modules/@types/scheduler/",\
           "packageDependencies": [\
             ["@types/scheduler", "npm:0.16.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vitejs/plugin-legacy", [\
+        ["npm:1.7.1", {\
+          "packageLocation": "./.yarn/cache/@vitejs-plugin-legacy-npm-1.7.1-95bbe32a77-99332e2138.zip/node_modules/@vitejs/plugin-legacy/",\
+          "packageDependencies": [\
+            ["@vitejs/plugin-legacy", "npm:1.7.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ee3788d5e42285f1ee85346135acb01539f3757bdd8f25d2e06acc381e187e0891040f02f922af55ee393b6e2e66dfbe0fe02fde261d146bc8f7a07799c0ede8#npm:1.7.1", {\
+          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-legacy-virtual-3ea9f01481/0/cache/@vitejs-plugin-legacy-npm-1.7.1-95bbe32a77-99332e2138.zip/node_modules/@vitejs/plugin-legacy/",\
+          "packageDependencies": [\
+            ["@vitejs/plugin-legacy", "virtual:ee3788d5e42285f1ee85346135acb01539f3757bdd8f25d2e06acc381e187e0891040f02f922af55ee393b6e2e66dfbe0fe02fde261d146bc8f7a07799c0ede8#npm:1.7.1"],\
+            ["@babel/standalone", "npm:7.17.8"],\
+            ["@types/vite", null],\
+            ["core-js", "npm:3.21.1"],\
+            ["magic-string", "npm:0.25.9"],\
+            ["regenerator-runtime", "npm:0.13.9"],\
+            ["systemjs", "npm:6.12.1"],\
+            ["vite", "virtual:ee3788d5e42285f1ee85346135acb01539f3757bdd8f25d2e06acc381e187e0891040f02f922af55ee393b6e2e66dfbe0fe02fde261d146bc8f7a07799c0ede8#npm:2.8.6"]\
+          ],\
+          "packagePeers": [\
+            "@types/vite",\
+            "vite"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1097,6 +1134,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["core-js", [\
+        ["npm:3.21.1", {\
+          "packageLocation": "./.yarn/unplugged/core-js-npm-3.21.1-4b064616b4/node_modules/core-js/",\
+          "packageDependencies": [\
+            ["core-js", "npm:3.21.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cosmiconfig", [\
         ["npm:5.2.1", {\
           "packageLocation": "./.yarn/cache/cosmiconfig-npm-5.2.1-4a84462a41-8b6f1d3c8a.zip/node_modules/cosmiconfig/",\
@@ -1194,6 +1240,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.13"],\
             ["@types/react-relay", "npm:13.0.1"],\
             ["@types/relay-runtime", "npm:13.0.2"],\
+            ["@vitejs/plugin-legacy", "virtual:ee3788d5e42285f1ee85346135acb01539f3757bdd8f25d2e06acc381e187e0891040f02f922af55ee393b6e2e66dfbe0fe02fde261d146bc8f7a07799c0ede8#npm:1.7.1"],\
             ["@vitejs/plugin-react", "npm:1.2.0"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-plugin-relay", "npm:13.2.0"],\
@@ -2014,6 +2061,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["magic-string", [\
+        ["npm:0.25.9", {\
+          "packageLocation": "./.yarn/cache/magic-string-npm-0.25.9-0b51c0ea50-9a0e55a15c.zip/node_modules/magic-string/",\
+          "packageDependencies": [\
+            ["magic-string", "npm:0.25.9"],\
+            ["sourcemap-codec", "npm:1.4.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["make-fetch-happen", [\
         ["npm:10.0.5", {\
           "packageLocation": "./.yarn/cache/make-fetch-happen-npm-10.0.5-2bf3177b3e-150071e412.zip/node_modules/make-fetch-happen/",\
@@ -2828,6 +2885,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["sourcemap-codec", [\
+        ["npm:1.4.8", {\
+          "packageLocation": "./.yarn/cache/sourcemap-codec-npm-1.4.8-3a1a9e60b1-b57981c056.zip/node_modules/sourcemap-codec/",\
+          "packageDependencies": [\
+            ["sourcemap-codec", "npm:1.4.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["sprintf-js", [\
         ["npm:1.0.3", {\
           "packageLocation": "./.yarn/cache/sprintf-js-npm-1.0.3-73f0a322fa-19d79aec21.zip/node_modules/sprintf-js/",\
@@ -2894,6 +2960,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",\
           "packageDependencies": [\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["systemjs", [\
+        ["npm:6.12.1", {\
+          "packageLocation": "./.yarn/cache/systemjs-npm-6.12.1-ee0a4cfeb1-82388eb436.zip/node_modules/systemjs/",\
+          "packageDependencies": [\
+            ["systemjs", "npm:6.12.1"]\
           ],\
           "linkType": "HARD"\
         }]\

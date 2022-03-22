@@ -397,6 +397,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/standalone@npm:^7.17.2":
+  version: 7.17.8
+  resolution: "@babel/standalone@npm:7.17.8"
+  checksum: ca72ff478ab72ae79601e2070a65df30b38de874772f66469cee860981d55f4ef45a57fff2afcaac588e644733696596ed7e0fa0907836f7d0f53a22b9fcd622
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/template@npm:7.16.7"
@@ -566,6 +573,21 @@ __metadata:
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
   checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
+  languageName: node
+  linkType: hard
+
+"@vitejs/plugin-legacy@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "@vitejs/plugin-legacy@npm:1.7.1"
+  dependencies:
+    "@babel/standalone": ^7.17.2
+    core-js: ^3.21.0
+    magic-string: ^0.25.7
+    regenerator-runtime: ^0.13.9
+    systemjs: ^6.12.1
+  peerDependencies:
+    vite: ^2.8.0
+  checksum: 99332e2138c008343c219706b1e15ae646172c522c9612b8b925cb8d264c7debae1e48ef79a978244d9a7d0558c4bf7442ccc9c1bafe6d857817d37b89a856ec
   languageName: node
   linkType: hard
 
@@ -876,6 +898,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.21.0":
+  version: 3.21.1
+  resolution: "core-js@npm:3.21.1"
+  checksum: d68eddd831340ad5b24ac29c72fda022a43b17f194c4278b6b875a843283d316502cb4abd07f28631d6ebc4387f66aa06e2b1b3c8fd7e08096a751b5c63f6889
+  languageName: node
+  linkType: hard
+
 "cosmiconfig@npm:^5.0.5":
   version: 5.2.1
   resolution: "cosmiconfig@npm:5.2.1"
@@ -954,6 +983,7 @@ __metadata:
     "@types/react-dom": ^17.0.10
     "@types/react-relay": ^13.0.1
     "@types/relay-runtime": ^13.0.2
+    "@vitejs/plugin-legacy": ^1.7.1
     "@vitejs/plugin-react": ^1.0.7
     babel-plugin-module-resolver: ^4.1.0
     babel-plugin-relay: ^13.2.0
@@ -1709,6 +1739,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.25.7":
+  version: 0.25.9
+  resolution: "magic-string@npm:0.25.9"
+  dependencies:
+    sourcemap-codec: ^1.4.8
+  checksum: 9a0e55a15c7303fc360f9572a71cffba1f61451bc92c5602b1206c9d17f492403bf96f946dfce7483e66822d6b74607262e24392e87b0ac27b786e69a40e9b1a
+  languageName: node
+  linkType: hard
+
 "make-fetch-happen@npm:^10.0.3":
   version: 10.0.5
   resolution: "make-fetch-happen@npm:10.0.5"
@@ -2178,7 +2217,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.4":
+"regenerator-runtime@npm:^0.13.4, regenerator-runtime@npm:^0.13.9":
   version: 0.13.9
   resolution: "regenerator-runtime@npm:0.13.9"
   checksum: 65ed455fe5afd799e2897baf691ca21c2772e1a969d19bb0c4695757c2d96249eb74ee3553ea34a91062b2a676beedf630b4c1551cc6299afb937be1426ec55e
@@ -2398,6 +2437,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sourcemap-codec@npm:^1.4.8":
+  version: 1.4.8
+  resolution: "sourcemap-codec@npm:1.4.8"
+  checksum: b57981c05611afef31605732b598ccf65124a9fcb03b833532659ac4d29ac0f7bfacbc0d6c5a28a03e84c7510e7e556d758d0bb57786e214660016fb94279316
+  languageName: node
+  linkType: hard
+
 "sprintf-js@npm:~1.0.2":
   version: 1.0.3
   resolution: "sprintf-js@npm:1.0.3"
@@ -2456,6 +2502,13 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"systemjs@npm:^6.12.1":
+  version: 6.12.1
+  resolution: "systemjs@npm:6.12.1"
+  checksum: 82388eb436013898d364d063478f97ce2a0a01c4a9a46088244da16e48a4aae6b4368a988c24409d3680c0d9bfb0ed68464f45494836218bd1cb4798501be8f9
   languageName: node
   linkType: hard
 

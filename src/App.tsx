@@ -13,6 +13,14 @@ import { ContentQuery } from './__generated__/ContentQuery.graphql'
 
 function App() {
   const [count, setCount] = useState(0)
+  const test1 = [1,2,3,4,5]
+  const test2 = [6,7,8,9,10]
+  const random = Math.floor(Math.random() * 10)
+  const testMap = new Map([
+    ['1', 'test1'],
+    ['2', 'test2']
+  ])
+  
 
   return (
     <div className="App">
@@ -25,6 +33,9 @@ function App() {
           </button>
           
         </p>
+        <p>Optional Chaining : {random > 5 ? `${[...test1, ...test2]}` : `${[...test2, ...test1]}`}</p>
+        <p>FromEntries : {`1 : ${Object.fromEntries(testMap)[1]}`}</p>
+        <p>FromEntries : {`2 : ${Object.fromEntries(testMap)[2]}`}</p>
         <Content  />
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
