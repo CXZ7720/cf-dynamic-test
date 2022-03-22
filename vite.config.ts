@@ -12,7 +12,8 @@ export default defineConfig({
     }),
     legacy({
       targets: ['and_chr >= 66', 'ios_saf >= 11'],
-      additionalLegacyPolyfills: ['regenerator-runtime/runtime']
+      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
+      modernPolyfills: true
 
     })
   ],
