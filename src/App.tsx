@@ -38,7 +38,7 @@ function App() {
         <p>FromEntries : {`2 : ${Object.fromEntries(testMap)[2]}`}</p>
         <Content  />
         <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
+          THIS IS ANOTHER BRANCH!!
         </p>
         <p>
           <Link to="/step1">Step 1</Link>
